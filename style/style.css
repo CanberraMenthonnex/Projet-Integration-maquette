@@ -127,8 +127,8 @@ li{
     background-position: 50% 50%;
     background-size: 50% 350px;
     width: 70%;
+    height: 300px;
     margin: auto;
-
     margin-top: 100px;
     font-size: 16px;
 
@@ -192,6 +192,8 @@ li{
 
 #h3_nouveau{
     font-size: 20px;
+    margin-left: 30px;
+    width: 80%;
 }
 
 #h3_nouveau::after{
@@ -278,7 +280,7 @@ li{
 #section_deux{
     color: white;
     background-image: linear-gradient(to top, var(--darkpurple) 20%, var(--mediumpurple)50%, var(--lightpurple)70%);
-    height: 700px;
+    height: 780px;
 }
 
 #section_trois{
@@ -354,18 +356,21 @@ li{
     font-size: 17px;
 }
 
-.span_li{
+.span_li, .span_l1{
     display: flex;
     font-weight: bolder;
     font-size: 25px;
     color: var(--darkpurple);
-    width: 50px;
+    width: 75px;
     height: 38px;
     background-color: white;
     justify-content: center;
     border-radius: 50%;
 }
 
+.span_l1{
+    width: 55px;
+}
 
 
 .p_tips{
@@ -400,6 +405,88 @@ li{
 }
 
 
+/* Slider */
+
+.slider_box, .slider_box_2{
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0.9px 10px 15.5px 0.5px rgba(98, 98, 98, 0.19);
+    background-color: #ffffff;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider_box_2{
+    margin-left: 50px;
+}
+
+.div_participant{
+    display: flex;
+    align-items: center;
+}
+h4{
+    color:black;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.image_slider{
+    height: 109px;
+    display: flex;
+    padding-right: 30px;
+}
+
+.tag{
+    border-radius: 9px;
+    background-color: #d3c4f2;
+    padding: 2px 15px ;
+    color: white;
+}
+
+.groupe{
+    font-size: 16px;
+    color: #747474;
+}
+
+#slider{
+    display: flex;
+}
+
+.hover{
+    position: relative;
+    right: 50px;
+}
+
+#slider_controller{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+}
 
 
+#controller1{
+    display: block;
+    width: 19px;
+    height: 18px;
+    background-color: #bf3676;
+    border-radius: 50%;
 
+}
+
+#controller2{
+    margin: 0 30px;
+}
+
+#controller2, #controller3{
+    display: block;
+    width: 19px;
+    height: 18px;
+    background-color: #818181;
+    border-radius: 50%;
+
+}
